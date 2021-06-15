@@ -1,6 +1,28 @@
 .App {
   text-align: center;
+  background-color: hsl(0, 0%, 93%);
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
 a {
   color: unset;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.media {
+  height: 400px;
+  filter: grayscale(100%) blur(1px);
+  transition: ease-in-out 0.1s;
+}
+
+.media:hover {
+  filter: grayscale(0%) blur(0);
 }

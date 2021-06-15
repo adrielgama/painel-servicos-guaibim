@@ -7,7 +7,7 @@ export default function Copyright() {
       variant="body2"
       color="textSecondary"
       align="center"
-      style={{ marginTop: 30 }}
+      style={{ marginTop: 90 }}
     >
       {"Copyright © "}
       <Link color="inherit" href="#">
