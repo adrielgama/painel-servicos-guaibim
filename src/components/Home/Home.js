@@ -31,7 +31,6 @@ const useStyles = makeStyles({
 
 const Home = () => {
   const classes = useStyles();
-  const preventDefault = (event) => event.preventDefault();
 
   return (
     <React.Fragment>
